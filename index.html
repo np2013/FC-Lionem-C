@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FC Lionem Zürich · Junioren C, 1. Stärkeklasse</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --blue-deep:#14315C; --blue:#2B5CAD; --blue-light:#E4ECF7;
+    --ink:#101826; --paper:#FBFBFA; --line:#DDE3EC; --gold:#F2A93B;
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font-family:'Work Sans',sans-serif; line-height:1.5; }
+  h1,h2 { font-family:'Big Shoulders Display',sans-serif; font-weight:700; margin:0; }
+  .wrap { max-width:880px; margin:0 auto; padding:0 22px; }
+  header { background:var(--blue-deep); color:#fff; padding:26px 0 30px; }
+  header h1 { font-size:clamp(1.7rem,6vw,2.4rem); }
+  .sub { color:#A9BEDC; font-size:14px; margin-top:6px; }
+  .updated { font-size:12.5px; color:#7E93B8; margin-top:14px; }
+  section { padding:34px 0; }
+  .section-head h2 { font-size:1.5rem; margin-bottom:14px; }
+  .table-wrap { overflow-x:auto; border:1px solid var(--line); border-radius:10px; }
+  table { width:100%; border-collapse:collapse; font-size:13.5px; min-width:520px; }
+  th,td { padding:8px; text-align:left; border-bottom:1px solid var(--line); white-space:nowrap; }
+  th { font-size:11px; text-transform:uppercase; color:#6B7385; background:var(--blue-light); }
+  td.num, th.num { text-align:center; }
+  tr.us td { background:var(--blue-light); font-weight:700; }
+  .fixture { display:flex; justify-content:space-between; gap:12px; padding:12px 0; border-bottom:1px solid var(--line); font-size:14.5px; }
+  .fixture .venue { font-size:12.5px; color:#6B7385; }
+  .scorers { list-style:none; padding:0; margin:0; }
+  .scorers li { display:flex; justify-content:space-between; padding:9px 0; border-bottom:1px solid var(--line); }
+  .scorers .n { font-weight:700; color:var(--blue-deep); }
+  .empty { color:#6B7385; font-size:14px; }
+  footer { padding:24px 0 40px; font-size:12.5px; color:#6B7385; border-top:1px solid var(--line); }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>FC Lionem Zürich</h1>
+    <div class="sub">Junioren C · 1. Stärkeklasse · Team a</div>
+    <div class="updated" id="updated">Lädt Daten…</div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap section-head">
+    <h2>Tabelle</h2>
+    <div class="table-wrap"><table id="standings"><thead>
+      <tr><th>#</th><th>Team</th><th class="num">Sp</th><th class="num">S</th><th class="num">U</th><th class="num">N</th><th class="num">Tore</th><th class="num">Pkt</th></tr>
+    </thead><tbody></tbody></table></div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap section-head">
+    <h2>Spielplan</h2>
+    <div id="fixtures"><p class="empty">Lädt…</p></div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap section-head">
+    <h2>Torschützenliste</h2>
+    <ul class="scorers" id="scorers"><li class="empty">Lädt…</li></ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Daten automatisch von fvrz.ch übernommen und stündlich aktualisiert.
+  </div>
+</footer>
+
+<script>
+fetch('./data.json?_=' + Date.now())
+  .then(r => r.json())
+  .then(render)
+  .catch(() => {
+    document.getElementById('updated').textContent = 'Noch keine Daten – der erste Update-Lauf läuft, sobald der Workflow einmal ausgeführt wurde.';
+  });
+
+function render(data) {
+  const upd = data.generated_at ? new Date(data.generated_at) : null;
+  document.getElementById('updated').textContent = upd
+    ? 'Stand: ' + upd.toLocaleString('de-CH')
+    : 'Noch keine Daten';
+
+  const tbody = document.querySelector('#standings tbody');
+  tbody.innerHTML = '';
+  (data.standings || []).forEach(row => {
+    const tr = document.createElement('tr');
+    if (row.is_us) tr.className = 'us';
+    tr.innerHTML = `<td>${row.rank}</td><td>${row.team}</td>
+      <td class="num">${row.played}</td><td class="num">${row.won}</td>
+      <td class="num">${row.draw}</td><td class="num">${row.lost}</td>
+      <td class="num">${row.goals_for}:${row.goals_against}</td>
+      <td class="num">${row.points}</td>`;
+    tbody.appendChild(tr);
+  });
+
+  const fx = document.getElementById('fixtures');
+  fx.innerHTML = '';
+  const list = data.fixtures || [];
+  if (!list.length) fx.innerHTML = '<p class="empty">Keine Spiele gefunden.</p>';
+  list.forEach(f => {
+    const div = document.createElement('div');
+    div.className = 'fixture';
+    div.innerHTML = `<div>${f.date} · ${f.time} Uhr<br><b>${f.home}</b> – <b>${f.away}</b>
+      ${f.score ? ' · ' + f.score : ''}<div class="venue">${f.venue || ''}</div></div>`;
+    fx.appendChild(div);
+  });
+
+  const sc = document.getElementById('scorers');
+  sc.innerHTML = '';
+  const entries = Object.entries(data.topscorers || {}).sort((a, b) => b[1] - a[1]);
+  if (!entries.length) sc.innerHTML = '<li class="empty">Noch keine Torschützen erfasst.</li>';
+  entries.forEach(([name, goals]) => {
+    const li = document.createElement('li');
+    li.innerHTML = `<span>${name}</span><span class="n">${goals}</span>`;
+    sc.appendChild(li);
+  });
+}
+</script>
+</body>
+</html>
