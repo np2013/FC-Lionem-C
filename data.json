@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-09-23T11:53:04.783651+00:00",
+  "team": "FC Lionem ZH a",
+  "group": null,
+  "standings": [
+    {
+      "rank": 1,
+      "team": "FC Dübendorf a",
+      "played": 5,
+      "won": 5,
+      "draw": 0,
+      "lost": 0,
+      "goals_for": 3,
+      "goals_against": 54,
+      "points": 15,
+      "is_us": false
+    },
+    {
+      "rank": 2,
+      "team": "FC Brüttisellen-Dietlikon a",
+      "played": 5,
+      "won": 5,
+      "draw": 0,
+      "lost": 0,
+      "goals_for": 9,
+      "goals_against": 50,
+      "points": 15,
+      "is_us": false
+    },
+    {
+      "rank": 3,
+      "team": "FC Wallisellen",
+      "played": 5,
+      "won": 4,
+      "draw": 1,
+      "lost": 0,
+      "goals_for": 14,
+      "goals_against": 51,
+      "points": 13,
+      "is_us": false
+    },
+    {
+      "rank": 4,
+      "team": "Team Fällanden - Schwerzenbach a",
+      "played": 5,
+      "won": 4,
+      "draw": 0,
+      "lost": 1,
+      "goals_for": 2,
+      "goals_against": 29,
+      "points": 12,
+      "is_us": false
+    },
+    {
+      "rank": 5,
+      "team": "FC Glattal Dübendorf b",
+      "played": 4,
+      "won": 2,
+      "draw": 1,
+      "lost": 1,
+      "goals_for": 16,
+      "goals_against": 16,
+      "points": 7,
+      "is_us": false
+    },
+    {
+      "rank": 6,
+      "team": "FC Mönchaltorf a",
+      "played": 4,
+      "won": 1,
+      "draw": 0,
+      "lost": 3,
+      "goals_for": 0,
+      "goals_against": 5,
+      "points": 3,
+      "is_us": false
+    },
+    {
+      "rank": 7,
+      "team": "FC Volketswil b",
+      "played": 5,
+      "won": 1,
+      "draw": 0,
+      "lost": 4,
+      "goals_for": 4,
+      "goals_against": 13,
+      "points": 3,
+      "is_us": false
+    },
+    {
+      "rank": 8,
+      "team": "FC Lionem ZH a",
+      "played": 4,
+      "won": 0,
+      "draw": 0,
+      "lost": 4,
+      "goals_for": 1,
+      "goals_against": 8,
+      "points": 0,
+      "is_us": true
+    },
+    {
+      "rank": 9,
+      "team": "FC Effretikon b",
+      "played": 4,
+      "won": 0,
+      "draw": 0,
+      "lost": 4,
+      "goals_for": 1,
+      "goals_against": 2,
+      "points": 0,
+      "is_us": false
+    },
+    {
+      "rank": 10,
+      "team": "FC Gossau",
+      "played": 5,
+      "won": 0,
+      "draw": 0,
+      "lost": 5,
+      "goals_for": 0,
+      "goals_against": 4,
+      "points": 0,
+      "is_us": false
+    }
+  ],
+  "fixtures": [],
+  "topscorers": {}
+}
