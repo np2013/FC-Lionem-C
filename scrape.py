@@ -18,6 +18,11 @@ CSS-Aenderungen, aber nicht unfehlbar). Wenn nach einem Layout-Wechsel
 nichts mehr gefunden wird: DEBUG=1 setzen, das schreibt den rohen Text
 jeder abgerufenen Seite nach debug_*.txt, damit man die Muster anpassen
 kann.
+
+HINWEIS ZUM ABRUF: fvrz.ch blockiert einfache HTTP-Anfragen (403 Forbidden),
+vermutlich ueber eine Bot-Erkennung, die echte Browser verlangt. Deshalb
+wird hier Playwright (ein unsichtbarer, echter Chromium-Browser) verwendet
+statt einfacher requests-Aufrufe.
 """
 
 import os
@@ -26,8 +31,8 @@ import json
 import time
 from datetime import datetime, timezone
 
-import requests
 from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
 # ---- Konfiguration: bei Bedarf anpassen -----------------------------------
 BASE = "https://matchcenter.fvrz.ch/default.aspx"
@@ -41,25 +46,59 @@ DATA_FILE = os.path.join(os.path.dirname(__file__), "data.json")
 PROCESSED_FILE = os.path.join(os.path.dirname(__file__), "processed_telegrams.json")
 DEBUG = os.environ.get("DEBUG") == "1"
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "de-CH,de;q=0.9,en;q=0.8",
-    "Referer": "https://matchcenter.fvrz.ch/",
-}
-
 DAY_RE = r"(?:Mo|Di|Mi|Do|Fr|Sa|So)"
 DATE_RE = re.compile(rf"^{DAY_RE}\s+(\d{{2}}\.\d{{2}}\.\d{{4}})$")
 TIME_RE = re.compile(r"^(\d{2}:\d{2})$")
 
+# Ein einziger Browser/Context wird fuer den ganzen Lauf wiederverwendet
+# (schneller als fuer jeden Aufruf neu zu starten).
+_playwright = None
+_browser = None
+_context = None
+
+
+def _get_context():
+    global _playwright, _browser, _context
+    if _context is None:
+        _playwright = sync_playwright().start()
+        _browser = _playwright.chromium.launch(headless=True)
+        _context = _browser.new_context(
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+            ),
+            locale="de-CH",
+            viewport={"width": 1280, "height": 900},
+        )
+    return _context
+
+
+def close_browser():
+    global _playwright, _browser, _context
+    if _browser:
+        _browser.close()
+    if _playwright:
+        _playwright.stop()
+    _browser = _context = _playwright = None
+
 
 def fetch(url, params=None, tag=""):
-    r = requests.get(url, params=params, headers=HEADERS, timeout=25)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
+    """Ruft eine Seite mit einem echten (headless) Browser ab und gibt ein
+    BeautifulSoup-Objekt des gerenderten HTML zurueck."""
+    full_url = url
+    if params:
+        from urllib.parse import urlencode
+        full_url = f"{url}?{urlencode(params)}"
+
+    context = _get_context()
+    page = context.new_page()
+    try:
+        page.goto(full_url, wait_until="networkidle", timeout=30000)
+        html = page.content()
+    finally:
+        page.close()
+
+    soup = BeautifulSoup(html, "html.parser")
     if DEBUG and tag:
         with open(f"debug_{tag}.txt", "w", encoding="utf-8") as f:
             f.write(soup.get_text("\n"))
@@ -226,33 +265,36 @@ def main():
     })
     processed = load_json(PROCESSED_FILE, [])
 
-    url, params = club_url(t=TEAM_ID, a="rr")
-    rr_soup = fetch(url, params, tag="rr")
-    standings = parse_standings(rr_soup)
-    if standings:
-        data["standings"] = standings
+    try:
+        url, params = club_url(t=TEAM_ID, a="rr")
+        rr_soup = fetch(url, params, tag="rr")
+        standings = parse_standings(rr_soup)
+        if standings:
+            data["standings"] = standings
 
-    fixtures_all = {}
-    for action in ("vs", "as", "rr"):
-        u, p = club_url(a=action)
-        s = fetch(u, p, tag=action)
-        for fx in parse_fixtures_from_text(s.get_text("\n")):
-            key = (fx["date"], fx["time"], fx["home"], fx["away"])
-            fixtures_all[key] = fx
-        for link in find_telegram_links(s):
-            if link not in processed:
-                try:
-                    tg_soup = fetch(link, tag=None)
-                    scorers = parse_scorers_from_telegram(tg_soup)
-                    for name in scorers:
-                        data["topscorers"][name] = data["topscorers"].get(name, 0) + 1
-                    processed.append(link)
-                    time.sleep(1)  # kein Dauerfeuer auf den Server
-                except requests.RequestException:
-                    pass
+        fixtures_all = {}
+        for action in ("vs", "as", "rr"):
+            u, p = club_url(a=action)
+            s = fetch(u, p, tag=action)
+            for fx in parse_fixtures_from_text(s.get_text("\n")):
+                key = (fx["date"], fx["time"], fx["home"], fx["away"])
+                fixtures_all[key] = fx
+            for link in find_telegram_links(s):
+                if link not in processed:
+                    try:
+                        tg_soup = fetch(link, tag=None)
+                        scorers = parse_scorers_from_telegram(tg_soup)
+                        for name in scorers:
+                            data["topscorers"][name] = data["topscorers"].get(name, 0) + 1
+                        processed.append(link)
+                        time.sleep(1)  # kein Dauerfeuer auf den Server
+                    except Exception as e:
+                        print(f"Warnung: Telegramm {link} konnte nicht gelesen werden: {e}")
 
-    data["fixtures"] = sorted(fixtures_all.values(), key=lambda f: (f["date"], f["time"]))
-    data["generated_at"] = datetime.now(timezone.utc).isoformat()
+        data["fixtures"] = sorted(fixtures_all.values(), key=lambda f: (f["date"], f["time"]))
+        data["generated_at"] = datetime.now(timezone.utc).isoformat()
+    finally:
+        close_browser()
 
     save_json(DATA_FILE, data)
     save_json(PROCESSED_FILE, processed)
