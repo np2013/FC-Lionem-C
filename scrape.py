@@ -41,7 +41,15 @@ DATA_FILE = os.path.join(os.path.dirname(__file__), "data.json")
 PROCESSED_FILE = os.path.join(os.path.dirname(__file__), "processed_telegrams.json")
 DEBUG = os.environ.get("DEBUG") == "1"
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; fc-lionem-scraper/1.0)"}
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "de-CH,de;q=0.9,en;q=0.8",
+    "Referer": "https://matchcenter.fvrz.ch/",
+}
 
 DAY_RE = r"(?:Mo|Di|Mi|Do|Fr|Sa|So)"
 DATE_RE = re.compile(rf"^{DAY_RE}\s+(\d{{2}}\.\d{{2}}\.\d{{4}})$")
