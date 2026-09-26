@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T12:11:41.239817+00:00",
+  "generated_at": "2026-09-26T14:10:02.173619+00:00",
   "team": "FC Lionem ZH a",
   "group": null,
   "standings": [
@@ -29,6 +29,18 @@
     },
     {
       "rank": 3,
+      "team": "Team Fällanden - Schwerzenbach a",
+      "played": 6,
+      "won": 5,
+      "draw": 0,
+      "lost": 1,
+      "goals_for": 2,
+      "goals_against": 33,
+      "points": 15,
+      "is_us": false
+    },
+    {
+      "rank": 4,
       "team": "FC Wallisellen",
       "played": 5,
       "won": 4,
@@ -37,18 +49,6 @@
       "goals_for": 14,
       "goals_against": 51,
       "points": 13,
-      "is_us": false
-    },
-    {
-      "rank": 4,
-      "team": "Team Fällanden - Schwerzenbach a",
-      "played": 5,
-      "won": 4,
-      "draw": 0,
-      "lost": 1,
-      "goals_for": 2,
-      "goals_against": 29,
-      "points": 12,
       "is_us": false
     },
     {
@@ -77,39 +77,39 @@
     },
     {
       "rank": 7,
-      "team": "FC Volketswil b",
-      "played": 5,
+      "team": "FC Gossau",
+      "played": 6,
       "won": 1,
       "draw": 0,
-      "lost": 4,
-      "goals_for": 4,
-      "goals_against": 13,
+      "lost": 5,
+      "goals_for": 0,
+      "goals_against": 12,
       "points": 3,
       "is_us": false
     },
     {
       "rank": 8,
-      "team": "FC Lionem ZH a",
-      "played": 4,
-      "won": 0,
+      "team": "FC Volketswil b",
+      "played": 6,
+      "won": 1,
       "draw": 0,
-      "lost": 4,
-      "goals_for": 1,
-      "goals_against": 8,
-      "points": 0,
-      "is_us": true
+      "lost": 5,
+      "goals_for": 4,
+      "goals_against": 14,
+      "points": 3,
+      "is_us": false
     },
     {
       "rank": 9,
-      "team": "FC Gossau",
+      "team": "FC Lionem ZH a",
       "played": 5,
       "won": 0,
       "draw": 0,
       "lost": 5,
-      "goals_for": 0,
-      "goals_against": 4,
+      "goals_for": 1,
+      "goals_against": 13,
       "points": 0,
-      "is_us": false
+      "is_us": true
     },
     {
       "rank": 10,
