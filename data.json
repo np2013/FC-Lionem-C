@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T20:09:25.011536+00:00",
+  "generated_at": "2026-09-28T21:10:14.585367+00:00",
   "team": "FC Lionem ZH a",
   "group": null,
   "standings": [
@@ -53,6 +53,18 @@
     },
     {
       "rank": 5,
+      "team": "FC Mönchaltorf a",
+      "played": 6,
+      "won": 3,
+      "draw": 0,
+      "lost": 3,
+      "goals_for": 0,
+      "goals_against": 28,
+      "points": 9,
+      "is_us": false
+    },
+    {
+      "rank": 6,
       "team": "FC Glattal Dübendorf b",
       "played": 5,
       "won": 2,
@@ -61,18 +73,6 @@
       "goals_for": 16,
       "goals_against": 16,
       "points": 7,
-      "is_us": false
-    },
-    {
-      "rank": 6,
-      "team": "FC Mönchaltorf a",
-      "played": 5,
-      "won": 2,
-      "draw": 0,
-      "lost": 3,
-      "goals_for": 0,
-      "goals_against": 15,
-      "points": 6,
       "is_us": false
     },
     {
@@ -101,18 +101,6 @@
     },
     {
       "rank": 9,
-      "team": "FC Lionem ZH a",
-      "played": 5,
-      "won": 0,
-      "draw": 0,
-      "lost": 5,
-      "goals_for": 1,
-      "goals_against": 13,
-      "points": 0,
-      "is_us": true
-    },
-    {
-      "rank": 10,
       "team": "FC Effretikon b",
       "played": 5,
       "won": 0,
@@ -122,6 +110,18 @@
       "goals_against": 4,
       "points": 0,
       "is_us": false
+    },
+    {
+      "rank": 10,
+      "team": "FC Lionem ZH a",
+      "played": 6,
+      "won": 0,
+      "draw": 0,
+      "lost": 6,
+      "goals_for": 1,
+      "goals_against": 17,
+      "points": 0,
+      "is_us": true
     }
   ],
   "fixtures": [],
