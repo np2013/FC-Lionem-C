@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T19:19:03.805838+00:00",
+  "generated_at": "2026-10-29T15:51:29.698626+00:00",
   "team": "FC Lionem ZH a",
   "group": null,
   "standings": [
@@ -10,7 +10,7 @@
       "won": 7,
       "draw": 0,
       "lost": 0,
-      "goals_for": 3,
+      "goals_for": 5,
       "goals_against": 64,
       "points": 21,
       "is_us": false
@@ -22,7 +22,7 @@
       "won": 7,
       "draw": 0,
       "lost": 0,
-      "goals_for": 11,
+      "goals_for": 13,
       "goals_against": 73,
       "points": 21,
       "is_us": false
@@ -34,7 +34,7 @@
       "won": 5,
       "draw": 0,
       "lost": 2,
-      "goals_for": 2,
+      "goals_for": 10,
       "goals_against": 34,
       "points": 15,
       "is_us": false
@@ -46,7 +46,7 @@
       "won": 4,
       "draw": 1,
       "lost": 2,
-      "goals_for": 15,
+      "goals_for": 17,
       "goals_against": 53,
       "points": 13,
       "is_us": false
@@ -58,7 +58,7 @@
       "won": 4,
       "draw": 1,
       "lost": 2,
-      "goals_for": 18,
+      "goals_for": 22,
       "goals_against": 26,
       "points": 13,
       "is_us": false
@@ -70,49 +70,37 @@
       "won": 3,
       "draw": 0,
       "lost": 4,
-      "goals_for": 0,
+      "goals_for": 1,
       "goals_against": 33,
       "points": 9,
       "is_us": false
     },
     {
       "rank": 7,
-      "team": "FC Volketswil b",
+      "team": "FC Gossau",
       "played": 7,
       "won": 2,
       "draw": 0,
       "lost": 5,
-      "goals_for": 4,
-      "goals_against": 22,
+      "goals_for": 0,
+      "goals_against": 15,
       "points": 6,
       "is_us": false
     },
     {
       "rank": 8,
-      "team": "FC Gossau",
-      "played": 6,
-      "won": 1,
+      "team": "FC Volketswil b",
+      "played": 7,
+      "won": 2,
       "draw": 0,
       "lost": 5,
-      "goals_for": 0,
-      "goals_against": 12,
-      "points": 3,
+      "goals_for": 5,
+      "goals_against": 22,
+      "points": 6,
       "is_us": false
     },
     {
       "rank": 9,
-      "team": "FC Effretikon b",
-      "played": 6,
-      "won": 0,
-      "draw": 0,
-      "lost": 6,
-      "goals_for": 2,
-      "goals_against": 6,
-      "points": 0,
-      "is_us": false
-    },
-    {
-      "rank": 10,
       "team": "FC Lionem ZH a",
       "played": 7,
       "won": 0,
@@ -122,6 +110,18 @@
       "goals_against": 18,
       "points": 0,
       "is_us": true
+    },
+    {
+      "rank": 10,
+      "team": "FC Effretikon b",
+      "played": 7,
+      "won": 0,
+      "draw": 0,
+      "lost": 7,
+      "goals_for": 12,
+      "goals_against": 6,
+      "points": 0,
+      "is_us": false
     }
   ],
   "fixtures": [],
