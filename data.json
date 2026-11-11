@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T10:19:38.006895+00:00",
+  "generated_at": "2026-11-11T18:22:54.853358+00:00",
   "team": "FC Lionem ZH a",
   "group": null,
   "standings": [
@@ -22,7 +22,7 @@
       "won": 8,
       "draw": 0,
       "lost": 1,
-      "goals_for": 15,
+      "goals_for": 25,
       "goals_against": 85,
       "points": 24,
       "is_us": false
@@ -34,7 +34,7 @@
       "won": 6,
       "draw": 1,
       "lost": 2,
-      "goals_for": 17,
+      "goals_for": 18,
       "goals_against": 66,
       "points": 19,
       "is_us": false
@@ -46,7 +46,7 @@
       "won": 6,
       "draw": 1,
       "lost": 2,
-      "goals_for": 22,
+      "goals_for": 24,
       "goals_against": 40,
       "points": 19,
       "is_us": false
@@ -94,7 +94,7 @@
       "won": 2,
       "draw": 0,
       "lost": 7,
-      "goals_for": 0,
+      "goals_for": 1,
       "goals_against": 15,
       "points": 6,
       "is_us": false
@@ -118,7 +118,7 @@
       "won": 0,
       "draw": 0,
       "lost": 9,
-      "goals_for": 13,
+      "goals_for": 14,
       "goals_against": 9,
       "points": 0,
       "is_us": false
