@@ -1,31 +1,628 @@
-Guten Tag,
-Ein maschineller Zugriff ist nicht erlaubt und wurde unterbunden:
-- Falls Sie ein SFV Verein sind und auf die Spielbetriebsdaten zugreifen mÃ¶chten, melden Sie sich unter support@football.ch
-- Sind Sie KEIN SFV Verein und an den Spielbetriebsdaten interessiert, melden Sie sich unter clubservices@football.ch
-Besten Dank
 
-*****************
 
-Bonjour,
-Un accÃ¨s automatique n'est pas autorisÃ© et a Ã©tÃ© bloquÃ©:
-- Si vous Ãªtes un club de l'ASF et que vous souhaitez accÃ©der aux donnÃ©es d'exploitation des matchs, veuillez vous annoncer sous support@football.ch
-- Si vous n'Ãªtes PAS un club de l'ASF et que vous Ãªtes intÃ©ressÃ© par les donnÃ©es d'exploitation des matchs, veuillez vous annoncer sous clubservices@football.ch
-Meilleurs remerciements
+Fussballverband Region Zürich - Match center
 
-*****************
 
-Buona giornata,
-L'accesso automatico non Ã¨ consentito ed Ã¨ stato bloccato:
-- Se siete un club ASF e desiderate accedere ai dati delle partite, contattate support@football.ch.
-- Se non siete un club ASF e desiderate accedere ai dati delle partite, contattate clubservices@football.ch.
-Grazie mille
 
-*****************
 
-Hello,
-Machine access is not permitted and has been blocked:
-- If you are an SFA club and would like to access the match operations data, please contact support@football.ch
-- If you are NOT an SFA club and are interested in the match operations data, please contact clubservices@football.ch
-Many thanks
 
-Block Bot Score 1 (fvrz.ch)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Verein
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FC Lionem Zürich
+
+
+
+
+
+
+
+
+
+
+Spielbetrieb 
+
+
+
+
+Aktuelle Spiele
+
+
+Resultate + Ranglisten
+
+
+Vereinsspielplan
+
+
+Heimspielplan
+
+
+Strafen
+Suspensionen/Funktionssperren
+
+
+
+
+
+
+
+
+Teams 
+
+
+
+
+Junioren C 1. Stärkeklasse a
+
+
+Junioren D-9 a
+
+
+Junioren D-9 b
+
+
+Junioren D-9 c
+
+
+Junioren D-7 a
+
+
+Junioren D-7 b
+
+
+Juniorinnen D-7
+
+
+Juniorinnen E / FF-11
+
+
+Junioren E a
+
+
+Junioren E b
+
+
+Junioren E c
+
+
+Junioren E d
+
+
+Junioren E e
+
+
+Juniorinnen F / FF-9
+
+
+Junioren F a
+
+
+Junioren F b
+
+
+Junioren F c
+
+
+Junioren F d
+
+
+Junioren F e
+
+
+Junioren F f
+
+
+Junioren F g
+
+
+Junioren G a
+
+
+Junioren G b
+
+
+Junioren G c
+
+
+
+
+
+
+
+
+Verein 
+
+
+
+
+Vereinsfunktionäre
+
+
+Trainer/in
+
+
+Schiedsrichter/Spielleiter
+
+
+Tenu-Sponsoren
+
+
+Gruppierungen
+
+
+Spielplan download
+
+
+Club-Widget Konfiguration
+
+
+
+
+ clubcorner.ch
+
+
+
+
+
+
+
+
+Sportanlagen 
+
+
+
+
+Neudorf
+
+
+Ettenfeld
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Postfach
+8050 Zürich
+http://www.fclionem.ch
+Vereinsnr.: 11551
+
+
+
+
+Teams: 24
+Farben: blau/weiss
+Gründung: 01.07.2007
+Aufnahme: 01.07.2007
+
+
+
+
+Region: FVRZ
+Zugehörigkeit: FVRZ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aktuelle Spiele 
+
+
+
+
+
+
+
+
+
+		Sa 28.11.2026
+	
+
+
+
+
+
+				12:45
+			
+
+
+
+
+FC Lionem ZH a (Jun.C 1/S)
+
+
+
+					-
+				
+
+
+Team Schwerzenbach - Fällanden b (Jun.C 2/S)
+
+
+
+
+
+
+
+
+
+				Trainingsspiele
+Spielnummer 712279
+Neudorf - Platzzuteilung erfolgt vor Ort, Zürich
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2026 ©
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

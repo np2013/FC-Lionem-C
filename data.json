@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T17:54:44.342998+00:00",
+  "generated_at": "2026-11-27T02:56:46.456005+00:00",
   "team": "FC Lionem ZH a",
   "group": null,
   "standings": [
@@ -125,5 +125,15 @@
     }
   ],
   "fixtures": [],
-  "topscorers": {}
+  "topscorers": {
+    "Dano Balm Studiger": 1,
+    "Mehmet Yigit Yildirim": 1,
+    "Yakob Hijazi": 1,
+    "Tenzin Rikchen Namgyaltsang": 2,
+    "Julian Alexander Probst": 2,
+    "Leandro Fernandes Da Silva": 1,
+    "Nora Emilie Ohnjec": 1,
+    "Asli Cimen": 1,
+    "Sally June Spiess": 1
+  }
 }

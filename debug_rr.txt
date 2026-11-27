@@ -1,31 +1,2658 @@
-Guten Tag,
-Ein maschineller Zugriff ist nicht erlaubt und wurde unterbunden:
-- Falls Sie ein SFV Verein sind und auf die Spielbetriebsdaten zugreifen mÃ¶chten, melden Sie sich unter support@football.ch
-- Sind Sie KEIN SFV Verein und an den Spielbetriebsdaten interessiert, melden Sie sich unter clubservices@football.ch
-Besten Dank
 
-*****************
 
-Bonjour,
-Un accÃ¨s automatique n'est pas autorisÃ© et a Ã©tÃ© bloquÃ©:
-- Si vous Ãªtes un club de l'ASF et que vous souhaitez accÃ©der aux donnÃ©es d'exploitation des matchs, veuillez vous annoncer sous support@football.ch
-- Si vous n'Ãªtes PAS un club de l'ASF et que vous Ãªtes intÃ©ressÃ© par les donnÃ©es d'exploitation des matchs, veuillez vous annoncer sous clubservices@football.ch
-Meilleurs remerciements
+Fussballverband Region Zürich - Match center
 
-*****************
 
-Buona giornata,
-L'accesso automatico non Ã¨ consentito ed Ã¨ stato bloccato:
-- Se siete un club ASF e desiderate accedere ai dati delle partite, contattate support@football.ch.
-- Se non siete un club ASF e desiderate accedere ai dati delle partite, contattate clubservices@football.ch.
-Grazie mille
 
-*****************
 
-Hello,
-Machine access is not permitted and has been blocked:
-- If you are an SFA club and would like to access the match operations data, please contact support@football.ch
-- If you are NOT an SFA club and are interested in the match operations data, please contact clubservices@football.ch
-Many thanks
 
-Block Bot Score 1 (fvrz.ch)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Verein
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FC Lionem Zürich
+
+
+
+
+
+
+
+
+
+
+Spielbetrieb 
+
+
+
+
+Aktuelle Spiele
+
+
+Resultate + Ranglisten
+
+
+Vereinsspielplan
+
+
+Heimspielplan
+
+
+Strafen
+Suspensionen/Funktionssperren
+
+
+
+
+
+
+
+
+Teams 
+
+
+
+
+Junioren C 1. Stärkeklasse a
+
+
+Junioren D-9 a
+
+
+Junioren D-9 b
+
+
+Junioren D-9 c
+
+
+Junioren D-7 a
+
+
+Junioren D-7 b
+
+
+Juniorinnen D-7
+
+
+Juniorinnen E / FF-11
+
+
+Junioren E a
+
+
+Junioren E b
+
+
+Junioren E c
+
+
+Junioren E d
+
+
+Junioren E e
+
+
+Juniorinnen F / FF-9
+
+
+Junioren F a
+
+
+Junioren F b
+
+
+Junioren F c
+
+
+Junioren F d
+
+
+Junioren F e
+
+
+Junioren F f
+
+
+Junioren F g
+
+
+Junioren G a
+
+
+Junioren G b
+
+
+Junioren G c
+
+
+
+
+
+
+
+
+Verein 
+
+
+
+
+Vereinsfunktionäre
+
+
+Trainer/in
+
+
+Schiedsrichter/Spielleiter
+
+
+Tenu-Sponsoren
+
+
+Gruppierungen
+
+
+Spielplan download
+
+
+Club-Widget Konfiguration
+
+
+
+
+ clubcorner.ch
+
+
+
+
+
+
+
+
+Sportanlagen 
+
+
+
+
+Neudorf
+
+
+Ettenfeld
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Postfach
+8050 Zürich
+http://www.fclionem.ch
+Vereinsnr.: 11551
+
+
+
+
+Teams: 24
+Farben: blau/weiss
+Gründung: 01.07.2007
+Aufnahme: 01.07.2007
+
+
+
+
+Region: FVRZ
+Zugehörigkeit: FVRZ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Junioren C 1. Stärkeklasse - Herbstrunde - Gruppe  7
+
+
+
+
+
+
+
+		Sa 07.11.2026
+	
+
+
+
+			12:00
+		
+
+
+
+				Team Fällanden - Schwerzenbach a
+			
+
+				-
+			
+
+				FC Brüttisellen-Dietlikon a
+			
+
+
+
+
+
+				0
+			
+
+				:
+			
+
+				5
+			
+
+
+
+
+
+
+
+
+
+
+
+			13:00
+		
+
+
+
+				FC Mönchaltorf a
+			
+
+				-
+			
+
+				FC Wallisellen
+			
+
+
+
+
+
+				1
+			
+
+				:
+			
+
+				8
+			
+
+
+
+
+
+
+
+
+
+
+
+			14:00
+		
+
+
+
+				FC Effretikon b
+			
+
+				-
+			
+
+				FC Volketswil b
+			
+
+
+
+
+
+				2
+			
+
+				:
+			
+
+				7
+			
+
+
+
+
+
+
+
+
+
+
+
+			14:00
+		
+
+
+
+				FC Dübendorf a
+			
+
+				-
+			
+
+
+FC Lionem ZH a
+
+
+
+
+
+
+
+				20
+			
+
+				:
+			
+
+				0
+			
+
+
+
+
+
+
+
+
+
+
+
+			16:00
+		
+
+
+
+				FC Gossau
+			
+
+				-
+			
+
+				FC Glattal Dübendorf b
+			
+
+
+
+
+
+				0
+			
+
+				:
+			
+
+				2
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Junioren C 1. Stärkeklasse - Herbstrunde - Gruppe  7
+
+
+
+
+
+
+
+
+1.
+FC Brüttisellen-Dietlikon a
+9
+9
+0
+0
+(13)
+80
+:
+9
++71
+27
+ 
+
+
+
+
+2.
+FC Dübendorf a
+9
+8
+0
+1
+(25)
+85
+:
+5
++80
+24
+ 
+
+
+
+
+3.
+FC Wallisellen
+9
+6
+1
+2
+(18)
+66
+:
+16
++50
+19
+ 
+
+
+
+
+4.
+FC Glattal Dübendorf b
+9
+6
+1
+2
+(24)
+40
+:
+15
++25
+19
+ 
+
+
+
+
+5.
+Team Fällanden - Schwerzenbach a
+9
+5
+0
+4
+(10)
+34
+:
+22
++12
+15
+ 
+
+
+
+
+6.
+FC Volketswil b
+9
+4
+0
+5
+(6)
+32
+:
+42
+-10
+12
+ 
+
+
+
+
+7.
+FC Mönchaltorf a
+9
+3
+0
+6
+(1)
+35
+:
+60
+-25
+9
+ 
+
+
+
+
+8.
+FC Gossau
+9
+2
+0
+7
+(1)
+15
+:
+33
+-18
+6
+ 
+
+
+
+
+9.
+FC Lionem ZH a
+9
+1
+0
+8
+(1)
+23
+:
+104
+-81
+3
+ 
+
+
+
+
+10.
+FC Effretikon b
+9
+0
+0
+9
+(14)
+9
+:
+113
+-104
+0
+ 
+
+
+
+
+
+
+
+
+
+
+Rangliste mit Spalte 'Strafpunkte' gemäss Wettspielreglement Art.48
+Für die Rangierung ist der Quotient aus der Anzahl Strafpunkte und der Anzahl tatsächlich auf dem Spielfeld ausgetragenen Meisterschaftsspiele abzustellen (Strafpunkte geteilt durch ausgetragene Spiele). Reglement betreffend Wertung der Strafpunkte in der Rangliste.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Junioren D-9 - Stärkeklasse 2 - Herbstrunde - Gruppe  6
+
+
+
+
+
+
+
+		Sa 07.11.2026
+	
+
+
+
+			09:00
+		
+
+
+
+				FC Zürich (Mädchen U13)
+			
+
+				-
+			
+
+
+FC Lionem ZH b
+
+
+
+
+
+
+
+				10
+			
+
+				:
+			
+
+				1
+			
+
+
+
+
+
+
+
+
+
+
+
+			12:00
+		
+
+
+
+				FC Brüttisellen-Dietlikon c
+			
+
+				-
+			
+
+				FC Oerlikon/Polizei ZH e
+			
+
+
+
+
+
+				3
+			
+
+				:
+			
+
+				0
+			
+
+
+
+
+
+
+
+
+
+
+
+			12:45
+		
+
+
+
+				FC Kempttal b
+			
+
+				-
+			
+
+				FC Effretikon b
+			
+
+
+
+
+
+				3
+			
+
+				:
+			
+
+				0
+			
+
+
+
+
+F
+ 
+
+
+
+
+
+
+
+			13:00
+		
+
+
+
+				FC Fällanden b
+			
+
+				-
+			
+
+				FC Schwamendingen c
+			
+
+
+
+
+
+				6
+			
+
+				:
+			
+
+				7
+			
+
+
+
+
+
+
+
+
+
+
+
+			13:45
+		
+
+
+
+				FC Stäfa 1895 e
+			
+
+				-
+			
+
+				FC Dübendorf b
+			
+
+
+
+
+
+				4
+			
+
+				:
+			
+
+				8
+			
+
+
+
+
+
+
+
+
+
+
+
+			14:00
+		
+
+
+
+				FC Glattbrugg d
+			
+
+				-
+			
+
+				FC Glattal Dübendorf b
+			
+
+
+
+
+
+				14
+			
+
+				:
+			
+
+				0
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+F
+ = Forfait
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Junioren D-9 - Stärkeklasse 1 - Herbstrunde - Gruppe  4
+
+
+
+
+
+
+
+		Sa 07.11.2026
+	
+
+
+
+			11:00
+		
+
+
+
+				FC Glattal Dübendorf a
+			
+
+				-
+			
+
+				FC Regensdorf b
+			
+
+
+
+
+
+				10
+			
+
+				:
+			
+
+				4
+			
+
+
+
+
+
+
+
+
+
+
+
+			11:15
+		
+
+
+
+				FC Unterstrass b
+			
+
+				-
+			
+
+				FC Brüttisellen-Dietlikon b
+			
+
+
+
+
+
+				1
+			
+
+				:
+			
+
+				2
+			
+
+
+
+
+
+
+
+
+
+
+
+			12:00
+		
+
+
+
+				FC Altstetten b
+			
+
+				-
+			
+
+				FC Zürich (Mädchen U14) b
+			
+
+
+
+
+
+				14
+			
+
+				:
+			
+
+				1
+			
+
+
+
+
+
+
+
+
+
+
+
+			12:00
+		
+
+
+
+				FC Glattbrugg b
+			
+
+				-
+			
+
+				U14 GC - FC Oerlikon/Polizei ZH Mädchen d
+			
+
+
+
+
+
+				8
+			
+
+				:
+			
+
+				6
+			
+
+
+
+
+
+
+
+
+
+
+
+			14:00
+		
+
+
+
+
+FC Lionem ZH a
+
+
+
+				-
+			
+
+				FC Buchs-Dällikon a
+			
+
+
+
+
+
+				7
+			
+
+				:
+			
+
+				6
+			
+
+
+
+
+
+
+
+
+
+
+
+			16:00
+		
+
+
+
+				FC Oerlikon/Polizei ZH c
+			
+
+				-
+			
+
+				FC Schwamendingen b
+			
+
+
+
+
+
+				2
+			
+
+				:
+			
+
+				2
+			
+
+
+
+
+
+
+
+
+
+
+
+			16:45
+		
+
+
+
+				FC Seefeld ZH c
+			
+
+				-
+			
+
+				FC Blue Stars ZH a
+			
+
+
+
+
+
+				1
+			
+
+				:
+			
+
+				3
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Junioren D-9 - Stärkeklasse 3 - Herbstrunde - Gruppe  1
+
+
+
+
+
+
+
+		Sa 07.11.2026
+	
+
+
+
+			10:00
+		
+
+
+
+				Benfica Clube de Zurique
+			
+
+				-
+			
+
+				FC Buchs-Dällikon c
+			
+
+
+
+
+
+				10
+			
+
+				:
+			
+
+				1
+			
+
+
+
+
+
+
+
+
+
+
+
+			12:00
+		
+
+
+
+				FC Industrie Turicum b
+			
+
+				-
+			
+
+
+FC Lionem ZH c
+
+
+
+
+
+
+
+				13
+			
+
+				:
+			
+
+				0
+			
+
+
+
+
+
+
+
+
+
+
+
+			12:00
+		
+
+
+
+				FC Wädenswil d
+			
+
+				-
+			
+
+				FC Urdorf c
+			
+
+
+
+
+
+				5
+			
+
+				:
+			
+
+				0
+			
+
+
+
+
+
+
+
+
+
+		So 08.11.2026
+	
+
+
+
+			12:30
+		
+
+
+
+				SC Siebnen b
+			
+
+				-
+			
+
+				FC Hakoah ZH b
+			
+
+
+
+
+
+				19
+			
+
+				:
+			
+
+				0
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Junioren D-7 - Stärkeklasse 2 - Herbstrunde - Gruppe  3
+
+
+
+
+
+
+
+		Sa 07.11.2026
+	
+
+
+
+			10:00
+		
+
+
+
+				FC Oerlikon/Polizei ZH b
+			
+
+				-
+			
+
+				FC Engstringen c
+			
+
+
+
+
+
+				3
+			
+
+				:
+			
+
+				4
+			
+
+
+
+
+
+
+
+
+
+
+
+			10:00
+		
+
+
+
+				SC Wipkingen ZH b
+			
+
+				-
+			
+
+				SV Rümlang d
+			
+
+
+
+
+
+				8
+			
+
+				:
+			
+
+				7
+			
+
+
+
+
+
+
+
+
+
+
+
+			10:00
+		
+
+
+
+
+FC Lionem ZH b
+
+
+
+				-
+			
+
+				FC Brüttisellen-Dietlikon b
+			
+
+
+
+
+
+				13
+			
+
+				:
+			
+
+				2
+			
+
+
+
+
+
+
+
+
+
+
+
+			10:00
+		
+
+
+
+				FC Oetwil-Geroldswil c
+			
+
+				-
+			
+
+				FC Schlieren b
+			
+
+
+
+
+
+				11
+			
+
+				:
+			
+
+				4
+			
+
+
+
+
+
+
+
+
+
+
+
+			13:00
+		
+
+
+
+				FC Zürich-Affoltern b
+			
+
+				-
+			
+
+				Zürich City SC
+			
+
+
+
+
+
+				7
+			
+
+				:
+			
+
+				15
+			
+
+
+
+
+
+
+
+
+
+
+
+			13:00
+		
+
+
+
+				FC Niederweningen b
+			
+
+				-
+			
+
+				FC Dietikon c
+			
+
+
+
+
+
+				13
+			
+
+				:
+			
+
+				1
+			
+
+
+
+
+
+
+
+
+
+
+
+			13:00
+		
+
+
+
+				SV Höngg c
+			
+
+				-
+			
+
+				FC Buchs-Dällikon e
+			
+
+
+
+
+
+				9
+			
+
+				:
+			
+
+				2
+			
+
+
+
+
+F
+ 
+
+
+
+
+
+
+
+
+
+
+F
+ = Forfait
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Junioren D-7 - Promotion - Herbstrunde - Gruppe  1
+
+
+
+
+
+
+
+		Fr 06.11.2026
+	
+
+
+
+			19:30
+		
+
+
+
+				FC Seefeld ZH e
+			
+
+				-
+			
+
+				FC Wettswil-Bonstetten a
+			
+
+
+
+
+
+				8
+			
+
+				:
+			
+
+				8
+			
+
+
+
+
+
+
+
+
+
+		Sa 07.11.2026
+	
+
+
+
+			09:00
+		
+
+
+
+				FC Schlieren  a
+			
+
+				-
+			
+
+				FC Industrie Turicum a
+			
+
+
+
+
+
+				7
+			
+
+				:
+			
+
+				8
+			
+
+
+
+
+
+
+
+
+
+
+
+			10:00
+		
+
+
+
+				Barcelona Academy Zurich
+			
+
+				-
+			
+
+
+FC Lionem ZH a
+
+
+
+
+
+
+
+				3
+			
+
+				:
+			
+
+				0
+			
+
+
+
+
+F
+ 
+
+
+
+
+
+
+
+			10:00
+		
+
+
+
+				FC Kilchberg-Rüschlikon a
+			
+
+				-
+			
+
+				SV Höngg a
+			
+
+
+
+
+
+				10
+			
+
+				:
+			
+
+				5
+			
+
+
+
+
+
+
+
+
+
+
+
+			11:30
+		
+
+
+
+				FC Adliswil a
+			
+
+				-
+			
+
+				FR SOCCER b
+			
+
+
+
+
+
+				2
+			
+
+				:
+			
+
+				2
+			
+
+
+
+
+
+
+
+
+
+
+
+			13:00
+		
+
+
+
+				FC Zürich-Affoltern a
+			
+
+				-
+			
+
+				FC Wollishofen a
+			
+
+
+
+
+
+				1
+			
+
+				:
+			
+
+				14
+			
+
+
+
+
+
+
+
+
+
+
+
+			15:00
+		
+
+
+
+				FC Wollerau a
+			
+
+				-
+			
+
+				FC Unterstrass c
+			
+
+
+
+
+
+				5
+			
+
+				:
+			
+
+				4
+			
+
+
+
+
+
+
+
+
+
+
+
+			16:00
+		
+
+
+
+				FC Wiedikon ZH a
+			
+
+				-
+			
+
+				Neudikids Academy
+			
+
+
+
+
+
+				14
+			
+
+				:
+			
+
+				1
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+F
+ = Forfait
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Juniorinnen D-7 - Stärkeklasse 2 - Herbstrunde - Gruppe  2
+
+
+
+
+
+
+
+		Sa 07.11.2026
+	
+
+
+
+			12:00
+		
+
+
+
+				SC Wipkingen ZHa
+			
+
+				-
+			
+
+				FC Wollishofen c
+			
+
+
+
+
+
+				8
+			
+
+				:
+			
+
+				8
+			
+
+
+
+
+
+
+
+
+
+
+
+			12:00
+		
+
+
+
+				FC Blue Stars ZH Frauen 1968 b
+			
+
+				-
+			
+
+				FC Bassersdorf
+			
+
+
+
+
+
+				0
+			
+
+				:
+			
+
+				8
+			
+
+
+
+
+
+
+
+
+
+
+
+			12:00
+		
+
+
+
+
+FC Lionem ZH
+
+
+
+				-
+			
+
+				FC Brüttisellen-Dietlikon
+			
+
+
+
+
+
+				3
+			
+
+				:
+			
+
+				4
+			
+
+
+
+
+
+
+
+
+
+
+
+			12:00
+		
+
+
+
+				FC Oerlikon/Polizei ZH
+			
+
+				-
+			
+
+				FC Kloten b
+			
+
+
+
+
+
+				0
+			
+
+				:
+			
+
+				2
+			
+
+
+
+
+
+
+
+
+
+
+
+			12:30
+		
+
+
+
+				FF Züri Unterland
+			
+
+				-
+			
+
+				FC Buchs-Dällikon b
+			
+
+
+
+
+
+				12
+			
+
+				:
+			
+
+				0
+			
+
+
+
+
+
+
+
+
+
+
+
+			13:30
+		
+
+
+
+				FC Glattal Dübendorf
+			
+
+				-
+			
+
+				SV Höngg c
+			
+
+
+
+
+
+				8
+			
+
+				:
+			
+
+				2
+			
+
+
+
+
+
+
+
+
+
+
+
+			13:30
+		
+
+
+
+				FC Wallisellen b
+			
+
+				-
+			
+
+				FC Dielsdorf
+			
+
+
+
+
+
+				13
+			
+
+				:
+			
+
+				1
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2026 ©
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
